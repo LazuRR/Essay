@@ -1,4 +1,1 @@
 theme: jekyll-theme-minimal
-markdown: redcarpet
-baseurl: /CV
-exclude: ['README.md']
