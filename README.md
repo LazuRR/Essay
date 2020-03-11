@@ -1,1 +1,1 @@
-# [index(raw)](https://github.com/LazuRR/docs/blob/gh-pages/index.html)
+# [CV](https://lazurr.github.io/CV/)
