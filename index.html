@@ -10,7 +10,7 @@
     />
     <title>Document</title>
   </head>
-  <body>
+  <body id="body">
     <!-- MAIN CONTAINER -->
     <div id="main_container">
       <!-- HEADER -->
@@ -25,7 +25,7 @@
               >Marchenkov</span
             >
           </h1>
-          <h2 class="logotype_occupation">BSUIR student</h2>
+          
         </div>
         <!-- MAIN MENU -->
         <div class="header_menu_container">
@@ -33,7 +33,7 @@
           <nav>
             <ul class="header_menu horizontal_list">
               <li>
-                <a class="no_border" href="#page1">Profile</a>
+                <a class="no_border" href="#page1 #body">Profile</a>
               </li>
               <li><a href="#page2">Education</a></li>
               <li><a href="#page3">Skills</a></li>
@@ -134,7 +134,7 @@
        
         <div id="page1" class="page default">
           <div class="block">
-            <h1>Profile</h1>
+            <h1><a href="#pro" class="pro">Pro</a><a href="#file" class="file">file</a></h1>
             <blockquote class="profile_quote">
               <p>
                 “The more I learn, the more I realize how much I don't know.”
@@ -150,12 +150,12 @@
             </p>
           </div>
 
-          <div class="block">
+          <div class="block page" id="pro">
             <h2>Philosophy</h2>
             <p>
               Open to people and prone to communication. To solve the issue, I approach him seriously and put all my strength into it.
             </p>
-            <div class="philosophy_content">
+            <div class="philosophy_content" >
               <p>
                 I am demanding on people with whom I have a working relationship, but I am always ready to help, give an advise, pay attention. I respect a person’s clear life position, established interests and rational decision-making.
               </p>
@@ -169,20 +169,14 @@
               <div class="clear"></div>
             </div>
           </div>
-          <div class="horizontal_line">
-            <div class="line_left"></div>
-            <div class="left_circle"></div>
-            <div class="central_circle"></div>
-            <div class="right_circle"></div>
-            <div class="line_right"></div>
-          </div>
-          <div class="last block" id="last">
+          
+          <div class="last block page" id="file">
             <h2>Interests & Hobbies</h2>
             <p>
               I welcome an active lifestyle. I spend summer riding on a longboard, winter skating. Love to sleep and taste delicious food. <br>
               I find special pleasure in traveling, the atmosphere of unfamiliar places and people has the ability to force to explore the world around us, broadens my horizons.
             </p>
-          </div>
+          </div> 
         </div>
       </div>
       <div class="clear"></div>

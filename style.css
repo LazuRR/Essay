@@ -46,14 +46,14 @@
 }
 
 .horizontal_line {
-  margin: 34px 0 0 30px;
+  margin: 30px 0 0 30px;
   height: 26px;
   position: relative;
 }
 .line_left,
 .line_right {
   border-top: 1px solid #434247;
-  width: 305px;
+  width: 280px;
   margin-top: 13px;
 }
 .line_left {
@@ -119,6 +119,22 @@ h3 {
 h4 {
   font-size: 18px;
   font-weight: 400;
+}
+
+.pro{
+  font-size: 48px;
+  color: rgb(72, 213, 218);
+text-decoration: none;}
+.file{
+  font-size: 48px;
+  color: #48da9b;
+  text-decoration: none;
+}
+.pro:hover,
+.pro:active,
+.file:hover,
+.file:active{
+   text-decoration: underline;
 }
 
 blockquote {
