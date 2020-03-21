@@ -14,8 +14,7 @@
   clear: both;
 }
 .skyblue {
-  color:   #837c9a;
-  
+  color: #837c9a;
 }
 
 .block {
@@ -30,16 +29,17 @@
   margin-bottom: 110px;
 }
 
-.tagbar_item{
+.tagbar_item {
   font-size: 50px;
 }
 
 .horizontal_list {
   margin: 0;
-  padding: 0;
-  list-style-type: none;
   
+  list-style-type: none;
 }
+
+
 .horizontal_list li {
   float: left;
 }
@@ -51,49 +51,44 @@
   text-indent: 0;
 }
 
-.horizontal_line {
-  margin: 30px 0 0 30px;
-  height: 26px;
-  position: relative;
-}
-.line_left,
-.line_right {
-  border-top: 1px solid #434247;
-  width: 280px;
-  margin-top: 13px;
-}
-.line_left {
-  float: left;
-}
-.line_right {
-  float: right;
-}
-.left_circle,
-.central_circle,
-.right_circle {
+.dot {
+  height: 16px;
+  width: 16px;
   background: rgb(69, 68, 73);
   background: rgba(255, 255, 255, 0.15);
-  position: absolute;
-  border-radius: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 4px;
 }
-.left_circle,
-.right_circle {
-  width: 13px;
-  height: 13px;
-  top: 7px;
+
+.dot_center {
+  height: 28px;
+  width: 28px;
+  background: rgb(69, 68, 73);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 150%;
+  display: inline-block;
 }
-.left_circle {
-  left: 314px;
+
+.icon {
+  width: 45px;
+  height: 45px;
+  
 }
-.central_circle {
-  width: 26px;
-  height: 26px;
-  top: 0px;
-  left: 322px;
+
+.tg {
+  background-image: url("telegram.svg"); 
 }
-.right_circle {
-  left: 343px;
+
+.vk {
+  background-image: url("vk.svg");
 }
+
+.mail {
+  background-image: url("gmail.svg.svg");
+}
+
+
 
 /* Main tags */
 
@@ -128,20 +123,21 @@ h4 {
   font-weight: 400;
 }
 
-.pro{
-  font-size: 48px;
+.pro {
+  font-size: 38px;
   color: rgb(72, 213, 218);
-text-decoration: none;}
-.file{
-  font-size: 48px;
+  text-decoration: none;
+}
+.file {
+  font-size: 38px;
   color: #48da9b;
   text-decoration: none;
 }
 .pro:hover,
 .pro:active,
 .file:hover,
-.file:active{
-   text-decoration: underline;
+.file:active {
+  text-decoration: underline;
 }
 
 blockquote {
@@ -196,17 +192,14 @@ li:before {
   height: 130px;
   border-right: 1px solid #403f44;
   float: left;
-
 }
 .header_menu_container {
   height: 130px;
   width: 699px;
   float: left;
-  
 }
 .header_menu_container a {
   font-family: "Lato", Helvetica, sans-serif;
-  
 }
 #left_col {
   width: 260px;
@@ -234,7 +227,7 @@ li:before {
 .logotype_occupation {
   text-transform: uppercase;
   margin-top: 5px;
-  
+
   font-size: 14px;
   letter-spacing: 2px;
   padding-left: 7px;
@@ -429,7 +422,7 @@ li:before {
 /*////////////////////////////////*/
 
 *:active {
-  outline:none;
+  outline: none;
 }
 
 .page {
@@ -437,13 +430,13 @@ li:before {
 }
 
 .default {
-  display:block;
+  display: block;
 }
 
 :target {
-  display:block;
+  display: block;
 }
 
 :target ~ .default {
-  display:none;
+  display: none;
 }
