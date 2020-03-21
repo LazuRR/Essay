@@ -14,7 +14,8 @@
   clear: both;
 }
 .skyblue {
-  color: #5267df;
+  color:   #837c9a;
+  
 }
 
 .block {
@@ -29,10 +30,15 @@
   margin-bottom: 110px;
 }
 
+.tagbar_item{
+  font-size: 50px;
+}
+
 .horizontal_list {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  
 }
 .horizontal_list li {
   float: left;
@@ -92,7 +98,7 @@
 /* Main tags */
 
 body {
-  background-color: #000507;
+  background-color: #02051f;
   margin: 0;
 }
 
@@ -108,6 +114,7 @@ h1 {
   font-size: 48px;
   font-weight: 300;
   margin: 20px 0;
+  color: #48da9b;
 }
 h2 {
   font-size: 28px;
@@ -195,9 +202,11 @@ li:before {
   height: 130px;
   width: 699px;
   float: left;
+  
 }
 .header_menu_container a {
   font-family: "Lato", Helvetica, sans-serif;
+  
 }
 #left_col {
   width: 260px;
@@ -219,7 +228,7 @@ li:before {
 
 .logotype_name {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 34px;
   margin: 43px 0 0;
 }
 .logotype_occupation {
@@ -245,14 +254,14 @@ li:before {
   text-decoration: none;
   padding: 0 20px;
   border-left: 1px solid #e4e3e8;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 300;
 }
 .header_menu a.no_border {
   border-left: none;
 }
 .header_menu a:hover {
-  color: #837c9a;
+  color: #48da9b;
 }
 
 /* LEFT NAV */
