@@ -20,7 +20,6 @@ I began to study programming with admission to the university (3 y ago), and soo
 - EPAM & BSUIR collaboration
 - Developed game Osu!-like on JavaJavaFX
 - Custom Observers and Listeners
-
 - BSUIR(software testing and development) September 2019 - December 2019
 - Created website MoodTravel
 - Worked with Bootstrap 4
