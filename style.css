@@ -95,6 +95,7 @@
 body {
   background-color: #02051f;
   margin: 0;
+  max-width: 900px;
 }
 
 h1,
